@@ -38,40 +38,131 @@ img{
 }
 .product-div-left{
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.product-div-left-top{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .product-div-right{
     padding: 20px;
 }
 .img-container img{
-    width: 320px;
+    width: 300px;
     margin: 0 auto;
 }
 .hover-container{
-    display: flex;
-    flex-wrap: wrap;
+    display: none;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     margin-top: 10px;
+
 }
 .hover-container div{
-    border: 2px solid rgba(252, 160, 175, 0.7);
-    padding: 0.1rem;
-    border-radius: 3px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
     margin: 0 4px 8px 4px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.active{
-    border-color: rgb(255, 145, 163)!important;
-}
-.hover-container div:hover{
-    border-color: rgb(255, 145, 163);
-}
+/* .hover-container div:active{
+    padding: 0.1rem;
+    border-radius: 3px;
+    margin: 0 4px 8px 4px;
+    border:2 px solid rgb(246, 68, 98);
+} */
+
 .hover-container div img{
     width: 50px;
     cursor: pointer;
 }
+.colors-3ft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+
+.colors-3ft  button{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    margin: 0 7px 0px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+.colors-3ft #btn1{
+    background-color: rgb(255, 236, 218);
+    color: rgb(47, 47, 47);
+}
+.colors-3ft #btn2{
+    background-color: rgb(195, 110, 61);
+    color:#f1f1f1;
+}
+.colors-3ft #btn3{
+    background-color: rgb(255, 74, 150);
+    color:#f1f1f1;
+}
+.colors-3ft #btn4{
+    background-color: rgb(255, 46, 203);
+    color:#f1f1f1;
+}
+#btn5{
+    background-color: yellow;
+    color: rgb(47, 47, 47);
+}
+.colors-sofa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-size: 10px;
+}
+
+.colors-sofa button{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    margin: 0 7px 0px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+.colors-sofa #btn1{
+    background-color: rgb(112, 205, 255);
+    color: rgb(47, 47, 47);
+}
+.colors-sofa #btn2{
+    background-color: rgb(255, 133, 214);
+    color:#f1f1f1;
+}
+.colors-sofa #btn3{
+    background-color: rgb(255, 81, 153);
+    color:#f1f1f1;
+}
+.colors-sofa #btn4{
+    background-color: rgb(147, 192, 255);
+    color:#f1f1f1;
+}
+
 .product-div-right span{
     display: block;
 }
