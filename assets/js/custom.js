@@ -1,7 +1,7 @@
 /**
 
 	File Name		 : custom.js	
-	Core script to handle the entire theme and core functions
+	Core script to handle the entire page and core functions
 	
 **/
 
@@ -11,13 +11,7 @@ dollnepal = function(){
 	
 	var screenWidth = $( window ).width();
 	var screenHeight = $( window ).height();
-	
-	// Preloader ============
-	// var handleloader = function(){
-	// 	setTimeout(function() {
-    //         jQuery('#loader').fadeOut(300);
-	// 	},300);
-	// }
+
 
 	// Menubar Toggler ============
     var handleMenubar = function() {
@@ -484,7 +478,6 @@ dollnepal = function(){
 		},
 
 		load:function(){
-			handlePreloader();
 			handleSelectpicker();
 			appNavigateShare();
 		},
